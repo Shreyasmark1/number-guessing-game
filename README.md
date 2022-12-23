@@ -5,6 +5,8 @@ A simple number guessing game made with Angular
 
 Demo: https://shreyasmark1.github.io/number-guessing-game/
 
+The above hosted static files are available on hosted branch
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
 ## Development server
