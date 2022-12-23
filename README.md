@@ -2,7 +2,7 @@
 
 A simple number guessing game made with Angular 
 
-Demo: https://shreyasmark1.github.io/guessing-game/
+Demo: https://shreyasmark1.github.io/number-guessing-game/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
