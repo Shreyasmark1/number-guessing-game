@@ -1,0 +1,29 @@
+ <div class="text-bg-dark window" >
+  <div class="text-center p-3 title">
+    <h1>Guess the Number</h1>
+  </div>
+ <div class="p-3 text-center">
+      <h5 class="card-title window">I am thinking of a number from 0 - 1000 can you guess it?</h5>
+      <div class=" mt-5">
+        <h5 class="card-title">{{hintText}}</h5>
+      </div>
+      <div class="inputPadding mt-5">
+        <input type="number" [(ngModel)]="inputNumber" name="inputNumber" class="form-control inputfield" id="exampleFormControlInput1" placeholder="enter a number">
+      </div>
+      <div class=" m-5">
+        <button type="button" class="customButton" (click)="guess()">check</button>
+      </div>
+      <p class="card-text m-2">Number of guesses : {{NumberOfGuess}}</p>
+      <div class="mb-3">
+        <button type="button" class="customButton" (click)="reset()">Reset</button>
+      </div>
+</div>
+
+<div class="text-center text-lg-start p-3 footer">
+  <!-- Copyright -->
+  <div class="text-center p-3 text-light">
+    <p> By Shreyas</p>
+  </div>
+  <!-- Copyright -->
+</div>
+</div>

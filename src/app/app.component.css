@@ -1,0 +1,50 @@
+.inputfield{
+    width: 50%;
+    align-self: center;
+    margin: auto;
+}
+.inputPadding{
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.window{
+    height: 100%;
+    margin: auto;
+}
+
+.customButton{
+
+    display: inline-block;
+	font-weight: 400;
+	text-align: center;
+    border: 0.1rem solid;
+    border-color: #A020F0;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .40rem;
+	color: #fff;
+    background-color:#212529;
+
+}
+
+.customButton:hover{
+	background-color: #A020F0;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #A020F0;
+
+}
+
+.title{
+    background-color: #A020F0;
+}
+.center{
+    margin: auto;
+    float: right;
+}
